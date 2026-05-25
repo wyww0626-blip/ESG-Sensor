@@ -1,0 +1,15 @@
+bert-score
+chardet
+matplotlib
+numpy
+openai
+pandas
+Pillow
+PyMuPDF
+python-dotenv
+requests
+rouge-score
+scikit-learn
+seaborn
+streamlit
+zhipuai
