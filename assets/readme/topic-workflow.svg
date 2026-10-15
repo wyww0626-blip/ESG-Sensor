@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="264" viewBox="0 0 1200 264" role="img" aria-labelledby="title desc">
+  <title id="title">ESG-Sensor 议题识别：先定位，再理解</title>
+  <desc id="desc">PDF 字体和短文本启发式提取候选标题，经 embedding 相似度选择候选页，结合少样本由视觉模型提取议题，最后人工核验。</desc>
+  <rect width="1200" height="264" rx="12" fill="#f5f8fa"/>
+  <g font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif">
+    <text x="48" y="52" fill="#18232b" font-size="28" font-weight="700">先定位，再理解</text>
+    <text x="1152" y="50" fill="#526572" font-size="18" text-anchor="end">议题识别与复核流程</text>
+    <g id="candidate-title">
+      <rect x="48" y="88" width="245" height="122" rx="8" fill="#fff" stroke="#ccd8de"/>
+      <text x="68" y="120" fill="#0f7f91" font-size="18" font-weight="700">01 / PDF 结构</text>
+      <text x="68" y="155" fill="#18232b" font-size="25" font-weight="600">提取候选标题</text>
+      <text x="68" y="186" fill="#526572" font-size="19">字体分组 · 短文本</text>
+    </g>
+    <g id="similarity-ranking">
+      <rect x="332" y="88" width="245" height="122" rx="8" fill="#fff" stroke="#ccd8de"/>
+      <text x="352" y="120" fill="#0f7f91" font-size="18" font-weight="700">02 / 向量排序</text>
+      <text x="352" y="155" fill="#18232b" font-size="25" font-weight="600">选择候选页</text>
+      <text x="352" y="186" fill="#526572" font-size="19">关键词相似度 · Top 3</text>
+    </g>
+    <g id="visual-extraction">
+      <rect x="616" y="88" width="245" height="122" rx="8" fill="#eaf5f0" stroke="#a0cdbb"/>
+      <text x="636" y="120" fill="#1c795d" font-size="18" font-weight="700">03 / 视觉模型</text>
+      <text x="636" y="155" fill="#18232b" font-size="25" font-weight="600">提取议题与重要性</text>
+      <text x="636" y="186" fill="#526572" font-size="19">页面图像 + 少样本</text>
+    </g>
+    <g id="human-review">
+      <rect x="900" y="88" width="252" height="122" rx="8" fill="#fff" stroke="#ccd8de"/>
+      <text x="920" y="120" fill="#0f7f91" font-size="18" font-weight="700">04 / 人工复核</text>
+      <text x="920" y="155" fill="#18232b" font-size="25" font-weight="600">对照原始页面</text>
+      <text x="920" y="186" fill="#526572" font-size="19">检查提取与解释</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#6f8693" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M302 149h20m-7-6 7 6-7 6"/>
+    <path d="M586 149h20m-7-6 7 6-7 6"/>
+    <path d="M870 149h20m-7-6 7 6-7 6"/>
+  </g>
+</svg>
